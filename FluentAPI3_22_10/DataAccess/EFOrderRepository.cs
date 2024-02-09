@@ -16,6 +16,7 @@ namespace FluentAPI3_22_10.DataAccess
             using (var context = new FluentContext())
             {
                 context.Orders.Add(data);
+               // var errors=context.GetValidationErrors();
                 context.SaveChanges();
             }
         }

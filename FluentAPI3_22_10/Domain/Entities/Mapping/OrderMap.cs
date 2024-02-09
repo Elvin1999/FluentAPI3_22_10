@@ -15,7 +15,7 @@ namespace FluentAPI3_22_10.Domain.Entities.Mapping
             this.ToTable("Orders");
 
             this.Property(o => o.Id).HasColumnName("Id");
-            this.Property(o => o.CustomerId).HasColumnName("OrderId");
+            this.Property(o => o.CustomerId).HasColumnName("CustomerId");
             this.Property(o => o.OrderDate).HasColumnName("OrderDate");
             this.Property(o => o.ImagePath).HasColumnName("ImagePath");
 

@@ -13,10 +13,5 @@ namespace FluentAPI3_22_10.Domain.Entities
         public virtual Customer Customer { get; set; }
         public DateTime OrderDate { get; set; }
         public string ImagePath { get; set; }
-
-        public Order()
-        {
-            Customer = new Customer();
-        }
     }
 }
