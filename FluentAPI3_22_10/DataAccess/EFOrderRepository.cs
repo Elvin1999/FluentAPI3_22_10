@@ -35,7 +35,7 @@ namespace FluentAPI3_22_10.DataAccess
             List<Order> Orders = null;
             using (var context = new FluentContext())
             {
-                Orders = context.Orders.ToList();
+                Orders = context.Orders.Include(o => o.Customer).ToList();
             }
             return Orders;
         }

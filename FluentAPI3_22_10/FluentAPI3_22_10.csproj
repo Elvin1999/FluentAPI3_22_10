@@ -87,6 +87,7 @@
     <Compile Include="Domain\Entities\Mapping\OrderMap.cs" />
     <Compile Include="Domain\Entities\Order.cs" />
     <Compile Include="Domain\ViewModels\BaseViewModel.cs" />
+    <Compile Include="Domain\ViewModels\MainViewModel.cs" />
     <Compile Include="Domain\Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

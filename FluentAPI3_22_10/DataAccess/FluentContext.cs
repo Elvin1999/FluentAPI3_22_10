@@ -14,7 +14,6 @@ namespace FluentAPI3_22_10.DataAccess
         public FluentContext()
             :base("StoreDB32210")
         {
-            
         }
 
         public DbSet<Order> Orders { get; set; }

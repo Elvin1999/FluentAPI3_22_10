@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentAPI3_22_10.Domain.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,8 +24,8 @@ namespace FluentAPI3_22_10
         public MainWindow()
         {
             InitializeComponent();
-
-         //   testGrid.ItemsSource = App.DB.OrderRepository.GetAll();
+            var vm = new MainViewModel();
+            this.DataContext = vm;
         }
     }
 }
